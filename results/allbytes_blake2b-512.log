@@ -1,0 +1,186 @@
+hashcat (v6.1.1) starting...
+
+* Device #1: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+* Device #2: WARNING! Kernel exec timeout is not disabled.
+             This may cause "CL_OUT_OF_RESOURCES" or related errors.
+             To disable the timeout, see: https://hashcat.net/q/timeoutpatch
+CUDA API (CUDA 11.1)
+====================
+* Device #1: GeForce GTX 970, 3380/4096 MB, 13MCU
+
+OpenCL API (OpenCL 1.2 CUDA 11.1.114) - Platform #1 [NVIDIA Corporation]
+========================================================================
+* Device #2: GeForce GTX 970, skipped
+
+Minimum password length supported by kernel: 0
+Maximum password length supported by kernel: 55
+
+Counting lines in C:\Users\User\Downloads\hashcat-6.1.1\Cicada-DWH-HashcatAttempts\deepwebhash-blake2...                                                                                                        Counted lines in C:\Users\User\Downloads\hashcat-6.1.1\Cicada-DWH-HashcatAttempts\deepwebhash-blake2...                                                                                                       Parsed Hashes: 1/1 (100.00%)                            Parsed Hashes: 1/1 (100.00%)                            Sorting hashes...                 Sorted hashes...                Removing duplicate hashes...                            Removed duplicate hashes...                           Sorting salts...                Sorted salts...               Comparing hashes with potfile entries...                                        Compared hashes with potfile entries...                                       Generating bitmap tables...                           Generated bitmap tables...                          Hashes: 1 digests; 1 unique digests, 1 unique salts
+Bitmaps: 16 bits, 65536 entries, 0x0000ffff mask, 262144 bytes, 5/13 rotates
+
+Applicable optimizers applied:
+* Optimized-Kernel
+* Zero-Byte
+* Not-Iterated
+* Single-Hash
+* Single-Salt
+* Brute-Force
+* Raw-Hash
+* Uses-64-Bit
+
+Watchdog: Temperature abort trigger set to 90c
+
+Initializing device kernels and memory...                                         Initializing backend runtime for device #1...                                             Initialized backend runtime for device #1...                                            Host memory required for this attack: 292 MB
+
+Initialized device kernels and memory...                                        The wordlist or mask that you are using is too small.
+This means that hashcat cannot use the full parallel power of your device(s).
+Unless you supply more work, your cracking speed will drop.
+For tips on supplying more work, see: https://hashcat.net/faq/morework
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Approaching final keyspace - workload adjusted.
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Session..........: hashcat
+Status...........: Exhausted
+Hash.Name........: BLAKE2b-512
+Hash.Target......: $BLAKE2$36367763ab73783c7af284446c59466b4cd653239a3...c2a8b4
+Time.Started.....: Mon Dec 14 18:26:50 2020 (0 secs)
+Time.Estimated...: Mon Dec 14 18:26:50 2020 (0 secs)
+Guess.Mask.......: ?1 [1]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 1/5 (20.00%)
+Speed.#1.........:   122.6 kH/s (1.76ms) @ Accel:2 Loops:256 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 256/256 (100.00%)
+Rejected.........: 0/256 (0.00%)
+Restore.Point....: 1/1 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-256 Iteration:0-256
+Candidates.#1....: $HEX[73] -> $HEX[ff]
+Hardware.Mon.#1..: Temp: 62c Fan: 40% Util: 24% Core:1328MHz Mem:3004MHz Bus:16
+
+The wordlist or mask that you are using is too small.
+This means that hashcat cannot use the full parallel power of your device(s).
+Unless you supply more work, your cracking speed will drop.
+For tips on supplying more work, see: https://hashcat.net/faq/morework
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Approaching final keyspace - workload adjusted.
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Session..........: hashcat
+Status...........: Exhausted
+Hash.Name........: BLAKE2b-512
+Hash.Target......: $BLAKE2$36367763ab73783c7af284446c59466b4cd653239a3...c2a8b4
+Time.Started.....: Mon Dec 14 18:26:50 2020 (0 secs)
+Time.Estimated...: Mon Dec 14 18:26:50 2020 (0 secs)
+Guess.Mask.......: ?1?1 [2]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 2/5 (40.00%)
+Speed.#1.........: 37363.7 kH/s (0.61ms) @ Accel:4 Loops:128 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 65536/65536 (100.00%)
+Rejected.........: 0/65536 (0.00%)
+Restore.Point....: 256/256 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:128-256 Iteration:0-128
+Candidates.#1....: $HEX[cd61] -> $HEX[ffff]
+Hardware.Mon.#1..: Temp: 63c Fan: 40% Util: 45% Core:1328MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Approaching final keyspace - workload adjusted.
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Session..........: hashcat
+Status...........: Exhausted
+Hash.Name........: BLAKE2b-512
+Hash.Target......: $BLAKE2$36367763ab73783c7af284446c59466b4cd653239a3...c2a8b4
+Time.Started.....: Mon Dec 14 18:26:50 2020 (0 secs)
+Time.Estimated...: Mon Dec 14 18:26:50 2020 (0 secs)
+Guess.Mask.......: ?1?1?1 [3]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 3/5 (60.00%)
+Speed.#1.........:   874.3 MH/s (5.74ms) @ Accel:2 Loops:256 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 16777216/16777216 (100.00%)
+Rejected.........: 0/16777216 (0.00%)
+Restore.Point....: 65536/65536 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-256 Iteration:0-256
+Candidates.#1....: $HEX[7361d0] -> $HEX[ffffff]
+Hardware.Mon.#1..: Temp: 64c Fan: 40% Util: 48% Core:1328MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Approaching final keyspace - workload adjusted.
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Session..........: hashcat
+Status...........: Exhausted
+Hash.Name........: BLAKE2b-512
+Hash.Target......: $BLAKE2$36367763ab73783c7af284446c59466b4cd653239a3...c2a8b4
+Time.Started.....: Mon Dec 14 18:26:50 2020 (5 secs)
+Time.Estimated...: Mon Dec 14 18:26:55 2020 (0 secs)
+Guess.Mask.......: ?1?1?1?1 [4]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 4/5 (80.00%)
+Speed.#1.........:   878.0 MH/s (7.03ms) @ Accel:2 Loops:256 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 4294967296/4294967296 (100.00%)
+Rejected.........: 0/4294967296 (0.00%)
+Restore.Point....: 16777216/16777216 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-256 Iteration:0-256
+Candidates.#1....: $HEX[7361f0ff] -> $HEX[ffffffff]
+Hardware.Mon.#1..: Temp: 68c Fan: 40% Util: 97% Core:1290MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Cracking performance lower than expected?
+
+* Append -w 3 to the commandline.
+  This can cause your screen to lag.
+
+* Update your backend API runtime / driver the right way:
+  https://hashcat.net/faq/wrongdriver
+
+* Create more work items to make use of your parallelization power:
+  https://hashcat.net/faq/morework
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Session..........: hashcat
+Status...........: Running
+Hash.Name........: BLAKE2b-512
+Hash.Target......: $BLAKE2$36367763ab73783c7af284446c59466b4cd653239a3...c2a8b4
+Time.Started.....: Mon Dec 14 18:26:55 2020 (18 mins, 22 secs)
+Time.Estimated...: Mon Dec 14 18:47:53 2020 (2 mins, 36 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   876.6 MH/s (7.10ms) @ Accel:2 Loops:256 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 961892319232/1099511627776 (87.48%)
+Rejected.........: 0/961892319232 (0.00%)
+Restore.Point....: 3757391872/4294967296 (87.48%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-256 Iteration:0-256
+Candidates.#1....: $HEX[73612af5df] -> $HEX[ffffa7f5df]
+Hardware.Mon.#1..: Temp: 71c Fan: 51% Util: 97% Core:1290MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Paused
+
+[s]tatus [r]esume [b]ypass [c]heckpoint [q]uit => 
+
+Resumed
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Session..........: hashcat
+Status...........: Running
+Hash.Name........: BLAKE2b-512
+Hash.Target......: $BLAKE2$36367763ab73783c7af284446c59466b4cd653239a3...c2a8b4
+Time.Started.....: Mon Dec 14 18:26:55 2020 (21 mins, 40 secs)
+Time.Estimated...: Mon Dec 14 18:50:13 2020 (1 min, 38 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   882.2 MH/s (7.08ms) @ Accel:2 Loops:256 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 1012758216704/1099511627776 (92.11%)
+Rejected.........: 0/1012758216704 (0.00%)
+Restore.Point....: 3956086784/4294967296 (92.11%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-256 Iteration:0-256
+Candidates.#1....: $HEX[73616fcdeb] -> $HEX[ffff7fcdeb]
+Hardware.Mon.#1..: Temp: 69c Fan: 40% Util: 97% Core:1290MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
