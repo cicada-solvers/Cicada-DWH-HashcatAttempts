@@ -128,3 +128,188 @@ Paused
   https://hashcat.net/faq/morework
 
 [s]tatus [r]esume [b]ypass [c]heckpoint [q]uit => 
+
+Resumed
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Approaching final keyspace - workload adjusted.
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Session..........: hashcat
+Status...........: Exhausted
+Hash.Name........: SHA2-512
+Hash.Target......: 36367763ab73783c7af284446c59466b4cd653239a311cb7116...c2a8b4
+Time.Started.....: Mon Dec 14 19:45:57 2020 (8 mins, 30 secs)
+Time.Estimated...: Mon Dec 14 19:54:27 2020 (0 secs)
+Guess.Mask.......: ?1?1?1?1 [4]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 4/5 (80.00%)
+Speed.#1.........:  8432.1 kH/s (7.17ms) @ Accel:8 Loops:32 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 4294967296/4294967296 (100.00%)
+Rejected.........: 0/4294967296 (0.00%)
+Restore.Point....: 16777216/16777216 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:224-256 Iteration:0-32
+Candidates.#1....: $HEX[096139ff] -> $HEX[ffffffff]
+Hardware.Mon.#1..: Temp: 69c Fan: 39% Util: 98% Core:1328MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Session..........: hashcat
+Status...........: Running
+Hash.Name........: SHA2-512
+Hash.Target......: 36367763ab73783c7af284446c59466b4cd653239a311cb7116...c2a8b4
+Time.Started.....: Mon Dec 14 19:54:27 2020 (4 mins, 39 secs)
+Time.Estimated...: Mon Dec 14 20:38:39 2020 (39 mins, 33 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   413.7 MH/s (7.57ms) @ Accel:8 Loops:32 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 117844213760/1099511627776 (10.72%)
+Rejected.........: 0/117844213760 (0.00%)
+Restore.Point....: 460275712/4294967296 (10.72%)
+Restore.Sub.#1...: Salt:0 Amplifier:128-160 Iteration:0-32
+Candidates.#1....: $HEX[cd612a0f1b] -> $HEX[9fffdf7067]
+Hardware.Mon.#1..: Temp: 72c Fan: 51% Util: 99% Core:1328MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Session..........: hashcat
+Status...........: Running
+Hash.Name........: SHA2-512
+Hash.Target......: 36367763ab73783c7af284446c59466b4cd653239a311cb7116...c2a8b4
+Time.Started.....: Mon Dec 14 19:54:27 2020 (12 mins, 47 secs)
+Time.Estimated...: Mon Dec 14 20:38:39 2020 (31 mins, 25 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   413.2 MH/s (7.58ms) @ Accel:8 Loops:32 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 320425164800/1099511627776 (29.14%)
+Rejected.........: 0/320425164800 (0.00%)
+Restore.Point....: 1251647488/4294967296 (29.14%)
+Restore.Sub.#1...: Salt:0 Amplifier:32-64 Iteration:0-32
+Candidates.#1....: $HEX[4d61a09a4a] -> $HEX[51ff3f9c4a]
+Hardware.Mon.#1..: Temp: 72c Fan: 52% Util: 99% Core:1328MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Session..........: hashcat
+Status...........: Running
+Hash.Name........: SHA2-512
+Hash.Target......: 36367763ab73783c7af284446c59466b4cd653239a311cb7116...c2a8b4
+Time.Started.....: Mon Dec 14 19:54:27 2020 (29 mins, 36 secs)
+Time.Estimated...: Mon Dec 14 20:37:07 2020 (13 mins, 4 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   437.1 MH/s (7.43ms) @ Accel:8 Loops:32 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 756670267392/1099511627776 (68.82%)
+Rejected.........: 0/756670267392 (0.00%)
+Restore.Point....: 2955689984/4294967296 (68.82%)
+Restore.Sub.#1...: Salt:0 Amplifier:128-160 Iteration:0-32
+Candidates.#1....: $HEX[cd612a53b0] -> $HEX[9fffdf2db0]
+Hardware.Mon.#1..: Temp: 72c Fan: 52% Util: 98% Core:1315MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Session..........: hashcat
+Status...........: Running
+Hash.Name........: SHA2-512
+Hash.Target......: 36367763ab73783c7af284446c59466b4cd653239a311cb7116...c2a8b4
+Time.Started.....: Mon Dec 14 19:54:27 2020 (36 mins, 29 secs)
+Time.Estimated...: Mon Dec 14 20:37:52 2020 (6 mins, 56 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   415.9 MH/s (7.72ms) @ Accel:8 Loops:32 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 926389108736/1099511627776 (84.25%)
+Rejected.........: 0/926389108736 (0.00%)
+Restore.Point....: 3618627584/4294967296 (84.25%)
+Restore.Sub.#1...: Salt:0 Amplifier:192-224 Iteration:0-32
+Candidates.#1....: $HEX[8261e0afd7] -> $HEX[dfff7fb1d7]
+Hardware.Mon.#1..: Temp: 72c Fan: 52% Util: 98% Core:1315MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Session..........: hashcat
+Status...........: Running
+Hash.Name........: SHA2-512
+Hash.Target......: 36367763ab73783c7af284446c59466b4cd653239a311cb7116...c2a8b4
+Time.Started.....: Mon Dec 14 19:54:27 2020 (40 mins, 41 secs)
+Time.Estimated...: Mon Dec 14 20:37:38 2020 (2 mins, 30 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   436.8 MH/s (7.43ms) @ Accel:8 Loops:32 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 1033737076736/1099511627776 (94.02%)
+Rejected.........: 0/1033737076736 (0.00%)
+Restore.Point....: 4038008832/4294967296 (94.02%)
+Restore.Sub.#1...: Salt:0 Amplifier:64-96 Iteration:0-32
+Candidates.#1....: $HEX[286139aff0] -> $HEX[d8ffbfb0f0]
+Hardware.Mon.#1..: Temp: 73c Fan: 53% Util: 98% Core:1315MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Session..........: hashcat
+Status...........: Running
+Hash.Name........: SHA2-512
+Hash.Target......: 36367763ab73783c7af284446c59466b4cd653239a311cb7116...c2a8b4
+Time.Started.....: Mon Dec 14 19:54:27 2020 (41 mins, 30 secs)
+Time.Estimated...: Mon Dec 14 20:37:38 2020 (1 min, 41 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   434.4 MH/s (7.43ms) @ Accel:8 Loops:32 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 1055206670336/1099511627776 (95.97%)
+Rejected.........: 0/1055206670336 (0.00%)
+Restore.Point....: 4121821184/4294967296 (95.97%)
+Restore.Sub.#1...: Salt:0 Amplifier:192-224 Iteration:0-32
+Candidates.#1....: $HEX[826172aef5] -> $HEX[dfff9faff5]
+Hardware.Mon.#1..: Temp: 72c Fan: 53% Util: 98% Core:1315MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+
+Session..........: hashcat
+Status...........: Running
+Hash.Name........: SHA2-512
+Hash.Target......: 36367763ab73783c7af284446c59466b4cd653239a311cb7116...c2a8b4
+Time.Started.....: Mon Dec 14 19:54:27 2020 (42 mins, 59 secs)
+Time.Estimated...: Mon Dec 14 20:37:38 2020 (12 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   436.4 MH/s (7.45ms) @ Accel:8 Loops:32 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 1094046187520/1099511627776 (99.50%)
+Rejected.........: 0/1094046187520 (0.00%)
+Restore.Point....: 4273577984/4294967296 (99.50%)
+Restore.Sub.#1...: Salt:0 Amplifier:96-128 Iteration:0-32
+Candidates.#1....: $HEX[7c61a0b9fe] -> $HEX[d2ff3fbbfe]
+Hardware.Mon.#1..: Temp: 73c Fan: 53% Util: 98% Core:1315MHz Mem:3004MHz Bus:16
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Approaching final keyspace - workload adjusted.
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Session..........: hashcat
+Status...........: Exhausted
+Hash.Name........: SHA2-512
+Hash.Target......: 36367763ab73783c7af284446c59466b4cd653239a311cb7116...c2a8b4
+Time.Started.....: Mon Dec 14 19:54:27 2020 (43 mins, 12 secs)
+Time.Estimated...: Mon Dec 14 20:37:39 2020 (0 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   435.9 MH/s (7.36ms) @ Accel:8 Loops:32 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 1099511627776/1099511627776 (100.00%)
+Rejected.........: 0/1099511627776 (0.00%)
+Restore.Point....: 4294967296/4294967296 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:224-256 Iteration:0-32
+Candidates.#1....: $HEX[0961a0feff] -> $HEX[ffffffffff]
+Hardware.Mon.#1..: Temp: 73c Fan: 53% Util: 98% Core:1315MHz Mem:3004MHz Bus:16
+
+Started: Mon Dec 14 19:45:55 2020
+                                  Stopped: Mon Dec 14 20:37:40 2020
