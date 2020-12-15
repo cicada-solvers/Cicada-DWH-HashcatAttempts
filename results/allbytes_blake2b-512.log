@@ -183,4 +183,25 @@ Restore.Sub.#1...: Salt:0 Amplifier:0-256 Iteration:0-256
 Candidates.#1....: $HEX[73616fcdeb] -> $HEX[ffff7fcdeb]
 Hardware.Mon.#1..: Temp: 69c Fan: 40% Util: 97% Core:1290MHz Mem:3004MHz Bus:16
 
-[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit => 
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Approaching final keyspace - workload adjusted.
+
+[s]tatus [p]ause [b]ypass [c]heckpoint [q]uit =>                                                  Session..........: hashcat
+Status...........: Exhausted
+Hash.Name........: BLAKE2b-512
+Hash.Target......: $BLAKE2$36367763ab73783c7af284446c59466b4cd653239a3...c2a8b4
+Time.Started.....: Mon Dec 14 18:26:55 2020 (23 mins, 19 secs)
+Time.Estimated...: Mon Dec 14 18:50:14 2020 (0 secs)
+Guess.Mask.......: ?1?1?1?1?1 [5]
+Guess.Charset....: -1 allbytes.hcchr, -2 Undefined, -3 Undefined, -4 Undefined 
+Guess.Queue......: 5/5 (100.00%)
+Speed.#1.........:   877.6 MH/s (7.07ms) @ Accel:2 Loops:256 Thr:1024 Vec:1
+Recovered........: 0/1 (0.00%) Digests
+Progress.........: 1099511627776/1099511627776 (100.00%)
+Rejected.........: 0/1099511627776 (0.00%)
+Restore.Point....: 4294967296/4294967296 (100.00%)
+Restore.Sub.#1...: Salt:0 Amplifier:0-256 Iteration:0-256
+Candidates.#1....: $HEX[7361d8ffff] -> $HEX[ffffffffff]
+Hardware.Mon.#1..: Temp: 73c Fan: 51% Util: 98% Core:1290MHz Mem:3004MHz Bus:16
+
+Started: Mon Dec 14 18:26:49 2020
+                                  Stopped: Mon Dec 14 18:50:14 2020
