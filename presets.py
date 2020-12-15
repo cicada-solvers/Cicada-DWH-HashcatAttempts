@@ -18,7 +18,7 @@ hashes={
 
 tests={
     "ipv4":"-a 3 DWH_FILE DWH_DIR/masks/ipv4.hcmask",
-	"allbytes":"-a 3 DWH_FILE DWH_DIR/masks/allbytes-lengths1-5.hcmask",
+    "allbytes":"-a 3 DWH_FILE DWH_DIR/masks/allbytes-lengths1-5.hcmask",
 }
 
 #set the default DeepWebHash for hash methods
