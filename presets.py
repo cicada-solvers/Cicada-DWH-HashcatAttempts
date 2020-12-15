@@ -9,10 +9,10 @@ HC_DIR=os.path.abspath(os.path.join(DWH_DIR, os.pardir))#we're assuming that thi
 HC_COMMAND="hashcat -m HASH_TYPE TEST_ARGS -O > DWH_DIR/results/TEST_NAME_HASH_NAME.log"
 
 hashes={
-	"blake2b-512":{"type":600,"hashfile":DWH_FILE+"-blake2"}, #blake2 hashes require a prefix for hashcat
-	"sha3-512":{"type":17600},
-	"sha512":{"type":1700},
-	"whirlpool":{"type":6100},
+    "blake2b-512":{"type":600,"hashfile":DWH_FILE+"-blake2"}, #blake2 hashes require a prefix for hashcat
+    "sha3-512":{"type":17600},
+    "sha512":{"type":1700},
+    "whirlpool":{"type":6100},
     "streebog":{"type":11800}
 }
 
