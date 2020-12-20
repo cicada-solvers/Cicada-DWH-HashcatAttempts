@@ -28,7 +28,7 @@ for test_name,test_args in presets.tests.items():
         print("   HASH "+hash_name)
         test_hash_command = test_command.replace("HASH_NAME",hash_name).replace("HASH_TYPE",str(hash_params['type'])).replace("DWH_FILE",hash_params['hashfile'])
         print("    "+test_hash_command)
-        #os.system(test_hash_command)
+        os.system(test_hash_command)
         
         
     
